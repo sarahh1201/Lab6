@@ -29,7 +29,7 @@ public class MainActivityTest {
     @Test
     public void mainActivityTest() {
         ViewInteraction textView = onView(
-                allOf(withText("Hello World!"),
+                allOf(withText("Hello Sarah!"),
                         withParent(allOf(withId(R.id.main),
                                 withParent(withId(android.R.id.content)))),
                         isDisplayed()));
